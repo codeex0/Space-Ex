@@ -2221,6 +2221,15 @@
 		.icon > .label {
 			display: none;
 		}
+		.material-icons.md-36 { font-size: 36px; }
+		.material-icons.orange600 { color: #FB8C00; }
+		.container {
+    margin:  30px auto;
+    width: 1000px;
+    padding-top:8px; 
+}
+
+
 
 /* Image */
 
@@ -2295,11 +2304,11 @@
 	ul {
 		list-style: disc;
 		margin: 0 0 2em 0;
-		padding-left: 1em;
+		padding-left: 7em;
 	}
 
 		ul li {
-			padding-left: 0.5em;
+			padding-left:5%;
 		}
 
 		ul.alt {
@@ -2837,6 +2846,32 @@
 		}
 
 	}
+	 ul {
+	overflow: auto;
+}
+
+ul li {
+	list-style-type: none;
+	float:left;
+}
+ 
+  }
+  li{
+  	padding-left:5%; 
+  }
+
+ul li  i {
+	background: #205D7A;
+	color: #fff;
+	width: 40px;
+	height: 40px;
+	border-radius: 20px;
+	font-size: 25px;
+	text-align: center;
+	margin-right: 10px;
+	padding-top: 15%;
+
+}
 
 	#navPanel {
 		-moz-transform: translatex(20em);
